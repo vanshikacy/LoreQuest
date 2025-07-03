@@ -13,10 +13,8 @@ body{
   margin: 0rem 2rem;
   background-color:#11021e;
   color: white;
-   height: 100vh;
-   align-items: center;
+  
 }
-
 
 .modalBackdrop {
   position: fixed;
