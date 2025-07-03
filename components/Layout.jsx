@@ -8,7 +8,7 @@ export default function Layout(){
         <header><h1>LoreQuest</h1></header>
         <main>
             <Hero/>
-            <Grid/>
+            <Grid />
         </main>
         <footer>
             <p>Created By <a href="https://vanshikacy.github.io/web-portfolio/" target="_blank">Vanshika Choudhary</a> 🐾<br></br>            
