@@ -4,20 +4,20 @@
 
 Welcome, one and all, to a world of magic, mystery, and mayhem! This is **LoreQuest**, a gamified reading challenge crafted for the fantasy-hungry reader and the curious cats 👀 
 
-🔗 [Live Demo](my-live-link.com)
+🔗 [Live Demo](https://lore-quest.vercel.app/)
 
 ---
 
-## 🌟 Features
+## Features
 
-- 📜 **30 Handpicked Fantasy Books**: Curated in the perfect order to wreck and rebuild your soul.
-- 🔒 **Progression Lock**: You must finish a book to unlock the next — no skipping!
-- 🧠 **State Persistence**: Your reading journey is saved using localStorage.
-- 🧭 **Responsive UI**: Works beautifully on mobile, tablet, and laptop screens.
+- **30 Handpicked Fantasy Books**: Curated in the perfect order to wreck and rebuild your soul.
+- **Progression Lock**: You must finish a book to unlock the next — no skipping!
+- **State Persistence**: Your reading journey is saved using localStorage.
+- **Responsive UI**: Works beautifully on mobile, tablet, and laptop screens.
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **React.js**
 - **HTML + CSS (custom-styled, no CSS frameworks)**
@@ -33,18 +33,18 @@ Welcome, one and all, to a world of magic, mystery, and mayhem! This is **LoreQu
 1. Click on the first book to begin your journey.
 2. Mark a book as *read* once you finish.
 3. The next book unlocks. Keep going.
-4. Reach book 30. Become a legend. ✨
+4. Reach book 30 to finish the challenge. 
 
 > “If you feel like giving up in the middle of any book, **DON’T.** That is not how challenges work!” – The Lorekeeper
 
 ---
 
-## 🎮 Future Features (planned)
+## Future Features (planned)
 
-- 📖 Progress Bar or Chapter Tracking
-- 🏆 Achievement Badges (e.g. “First 5”, “Longest Book Survived”)
-- 📆 Reading Streak Tracker
-- ☁️ Cloud Save via Firebase (optional login)
+- Progress Bar or Chapter Tracking
+- Achievement Badges (e.g. “First 5”, “Longest Book Survived”)
+- Reading Streak Tracker
+- Cloud Save via Firebase (optional login)
 
 ---
 
