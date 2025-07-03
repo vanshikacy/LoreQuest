@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+/* *{
+   outline: 1px solid red;  
+}  */
+
+body{
+  font-family: "Lora", serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0rem 2rem;
+  background-color:#11021e;
+  color: white;
+}
+
+.modalBackdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  background: rgba(0, 0, 0, 0.3); /* dim overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 999; /* pop over everything */
+}
+
+.popupWrapper {
+  background-color:#11021e;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(57, 7, 86, 0.2);
+  width: 90%;
+  max-height: 95%;
+  max-width: 400px;
+  z-index: 1000;
+  text-align: center;
+}
+
+h1, h2, h3, button {
+  font-family: 'Cinzel Decorative', serif;
+  color: rgb(184, 167, 132)
+}
+
+a, h4{
+  color:rgb(184, 167, 132)
+}
+
+button{
+  border: none;
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow:  4px 4px 0px rgba(201, 175, 170, 0.3);
+  color: #11021e;
+  background-color: rgb(219, 208, 184);
+}
+
+i{
+  font-size: 1rem;
+}
+
+i:hover{
+ color:#b85cf2;
+}
+
+button:active{
+  box-shadow: none;
+  transform: translate(4px, 4px);
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 7 equal columns */
+  gap: 0.5rem; /* space between the buttons */
+  padding: 2rem;
+}
+
+h1, h2, h3 {
+  background: linear-gradient(270deg, #f5dba1, #fff3c2, #dab26d);
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  animation: shimmer 5s ease infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+#bookcardbuttons{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  body {
+    margin: 0rem 16rem;
+    font-size: 1.1rem;
+  }
+
+  .popupWrapper {
+    max-width: 500px;
+    padding: 2.5rem;
+  }
+
+  .gridContainer {
+    grid-template-columns: repeat(6, 1fr); /* more space, more columns */
+    gap: 1rem;
+  }
+
+  button {
+    padding: 1.2rem;
+    font-size: 1rem;
+  }
+
+  i {
+    font-size: 1.2rem;
+  }
+}
