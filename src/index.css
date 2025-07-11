@@ -10,16 +10,18 @@ body{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  margin: 0rem 2rem;
+  margin: 0rem 1.3rem;
   background-color:#11021e;
   color: white;
-  
+  font-size: 0.75rem;
 }
 
 .modalBackdrop {
   position: fixed;
   top: 0;
   left: 0;
+  right: 0;
+  bottom: 0;
   width: 100vw;
   height: 100vh;
 
@@ -33,12 +35,12 @@ body{
 
 .popupWrapper {
   background-color:#11021e;
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 12px;
   box-shadow: 0 8px 30px rgba(57, 7, 86, 0.2);
-  width: 90%;
-  max-height: 95%;
-  max-width: 400px;
+  width: 80vw;
+  max-height: 80vh;
+  max-width: 70vw;
   z-index: 1000;
   text-align: center;
 }
@@ -54,7 +56,7 @@ a, h4{
 
 button{
   border: none;
-  padding: 1rem;
+  padding: 0.5rem;
   border-radius: 4px;
   box-shadow:  4px 4px 0px rgba(201, 175, 170, 0.3);
   color: #11021e;
@@ -76,7 +78,7 @@ button:active{
 
 .gridContainer {
   display: grid;
-  grid-template-columns: repeat(5, 1fr); /* 7 equal columns */
+  grid-template-columns: repeat(4, 1fr); /* 7 equal columns */
   gap: 0.5rem; /* space between the buttons */
   padding: 2rem;
 
@@ -129,7 +131,7 @@ h1, h2, h3 {
 
   button {
     padding: 1.2rem;
-    font-size: 1rem;
+    font-size: 0.5rem;
   }
 
   i {
